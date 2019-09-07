@@ -137,7 +137,7 @@
             <div class="tab-r3">
               <nav>
                  <a>TutorialEditor.h</a>
-                 <span>←</span>
+                 <span>+</span>
                  <a>TutorialEditor.cpp</a>
                </nav>
                <div>
@@ -147,10 +147,23 @@
                  </div>
                  <div>
                    <p>class functionality:</p>
-                   <script src="https://gist-it.appspot.com/https://github.com/Arza-3d/UE4_EditorModule/blob/FirstCommit/Source/TutorialEditor/Private/TutorialEditor.css"></script>
+                   <script src="https://gist-it.appspot.com/https://github.com/Arza-3d/UE4_EditorModule/blob/master/Source/TutorialEditor/Private/TutorialEditor.cpp"></script>
                  </div>
                </div>
             </div>
+        </section>
+
+        <h3>error log</h3>
+        <section>
+            <code>
+                1>------ Build started: Project: Tutorial, Configuration: Development_Editor x64 ------
+1>Using 'git status' to determine working set for adaptive non-unity build (C:\Users\arza3\Documents\Unreal Projects\Tutorial).
+1>Creating makefile for TutorialEditor (ini files are newer than makefile)
+1>UnrealBuildTool : error : Expecting to find a type to be declared in a module rules named 'TutorialEditor' in TutorialModuleRules, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.  This type must derive from the 'ModuleRules' type defined by Unreal Build Tool.
+1>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.22\Engine\Build\BatchFiles\Build.bat" TutorialEditor Win64 Development -Project="C:\Users\arza3\Documents\Unreal Projects\Tutorial\Tutorial.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
+1>Done building project "Tutorial.vcxproj" -- FAILED.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+            </code>
         </section>
 
     </main>
